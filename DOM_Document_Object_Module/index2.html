@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- All HTML code will go here -->
+<button id="clickThisButton">I want to be clicked. </button>
+ 
+
+
+<script type="text/javascript">
+
+document.getElementById('clickThisButton').addEventListener('click', (details) => {
+    details.target.style.backgroundColor = 'red';
+});
+
+</script>
+</body>
+</html>
